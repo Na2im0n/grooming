@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'circe';
+    src: local ('circe'), url('../fonts/circe.ttf') format('truetype'), url('../fonts/circe-bold.ttf') format('truetype'), url('../fonts/circe-extrabold.ttf') format('truetype'), url('../fonts/circe-extralight.ttf') format('truetype'), url('../fonts/circe-light.ttf') format('truetype'), url('../fonts/circe-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: circe, arial, sans-serif !important;
+    color: #744037;
+    font-size: 20px;
+    width: 1920px;
+}
+
+.glavnoe-menu {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+
+
+.logo {
+    float: left;
+    margin-left: 375px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+
+
+.menu-element {
+    font-size: 20px;
+    float: left;
+    margin-top: 57px;
+    position: absolute;
+    color: #744037;
+}
+
+.header-socials {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 57px;
+    position: absolute;
+}
+
+.telegram {
+    margin-left: 1145px;
+    position: absolute;
+    background: #744037;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #744037;
+    border-radius: 20px;
+    padding-top: 17%;
+    padding-left: 8%;
+}
+
+.whatsapp {
+    margin-left: 1190px;
+    position: absolute;
+}
+
+.vk {
+    margin-left: 1235px;
+    position: absolute;
+}
+
+
+.firstelement {
+    margin-left: 575px;
+    color: #744037;
+
+}
+
+.secondelement {
+    margin-left: 738px;
+    color: #744037;
+}
+
+.thirdelement {
+    margin-left: 896px;
+    color: #744037;
+}
+
+.fourelement {
+    margin-left: 1016px;
+    color: #744037;
+}
+
+.contact {
+    float: left;
+    color: #744037;
+    margin-top: 55px;
+    margin-left: 1303px;
+
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-left: 25px;
+
+
+}
+
+a:visited {
+    color: #744037;
+}
+
+.adress {
+    font-size: 16px;
+    padding-top: 29px;
+    color: #240401;
+    opacity: 50%;
+    font-weight: 400;
+    position: absolute;
+}
+
+.swiper {
+    width: 1920px;
+    height: 940px;
+    position: absolute;
+    z-index: 0;
+}
+
+.item__title {
+    margin-top: 340px;
+    margin-left: 375px;
+    font-size: 42px;
+    font-weight: 800;
+    width: 463px;
+}
